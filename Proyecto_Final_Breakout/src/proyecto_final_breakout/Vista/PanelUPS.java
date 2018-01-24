@@ -45,8 +45,8 @@ public class PanelUPS extends JPanel {
     private GestionDato gD=new GestionDato();
 
     public PanelUPS() {
-        this.mapaU=new MapaUPS(7,16);
-     this.numeroBloques=7*16;
+     this.mapaU=new MapaUPS(7,16);
+     this.numeroBloques=75;
      try {
             this.cancionUPS = AudioSystem.getClip();
         } catch (LineUnavailableException ex) {
